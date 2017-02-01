@@ -1,7 +1,8 @@
-# Task manager
+# Task manager (React JS)
 
-webpack-dev-server
-with localStorage 
+depliyed on webpack-dev-server
+
+using localStorage 
 
 Demo:
 http://codepen.io/biboshkin/pen/VPQgyj
