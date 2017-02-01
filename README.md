@@ -4,6 +4,7 @@ deployed on webpack-dev-server
 
 using localStorage 
 
-demo:
 
+
+demo:
 http://codepen.io/biboshkin/pen/VPQgyj
