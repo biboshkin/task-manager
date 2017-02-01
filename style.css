@@ -1,0 +1,154 @@
+.task-manager {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.taskEditor, .taskViewer {
+     padding: 7px 2px;
+}
+
+/* Общий вид кнопок */
+.task-toogleButton, 
+.task-saveButton, 
+.task-editButton, 
+.task-deleteButton {
+   background-color: white;
+   border: none;
+   margin-right: 5px;
+   margin: 8px auto;
+   text-decoration: underline;
+   float: right;
+   cursor: pointer;
+   font-family: verdana, sans-serif; 
+   font-size: 11px;
+}
+
+.task-deleteButton {
+   color: red;
+}
+
+.task-toogleButton {
+   color: lightgray;
+}
+
+.task-saveButton {
+   margin-right: 80px;
+   color: dodgerblue;
+}
+
+h4 {
+   text-align: center;
+   text-decoration: underline;
+   color: lightgrey;
+   font-family: verdana, sans-serif; 
+}
+
+ul {
+   margin-left: 1px;
+   padding-left: 1px; 
+   margin-top: 20px;
+}
+
+li {
+   list-style-type: none;
+   border: solid; 
+   border-radius: 5px;
+   border-width: 1px;
+   height: 35px;
+   margin-top: 5px;
+   width: 590px;
+   height: auto;
+   overflow: hidden;
+}
+
+/* 'add new task' styles  */
+.addTask {
+   height: 40px;
+   width: 600px;
+   white-space:nowrap;
+}
+
+.addTask > input[type="text"] {
+   height: 40px;
+   width: 500px;
+   display:inline-block;
+   border:1px solid green;
+   border-radius: 5px 0 0 5px;
+   font-family: verdana, sans-serif; 
+   font-size: 15px;
+   padding-left: 10px;   
+   padding-right: 50px;
+   outline:none;
+   box-sizing: border-box;
+}
+
+.addTask > input[type="submit"] {
+   height: 40px;
+   width: 100px;  
+   background-color: #4CAF50;   
+   color: white;
+   border: none;
+   border-radius: 0 5px 5px 0; 
+   font-size: 15px;
+   font-family: verdana, sans-serif; 
+   text-align: center;
+   margin-left: -5px;
+   box-sizing: border-box;
+}
+
+/*  END 'add new task' styles  */
+
+/* Убирает рамку вокруг 
+кнопки при нажатии  */
+button:active, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}  
+
+
+/* Textareas style  */
+.textarea-edit,
+.textarea-completed,
+.textarea-view {
+   margin-left: 10px;
+   border: 1px solid lightgray;
+   border-radius: 5px;
+   color: black;
+   background-color: white;
+   font-size: 14px;
+   font-family: verdana, sans-serif;  
+   display:inline-block;
+   box-sizing: border-box;   
+   max-width: 380px;
+   max-height: 100px;
+   height: auto;
+   width: 380px;
+   vertical-align: middle;
+} 
+
+.textarea-edit {
+   border:1px dotted dodgerblue;
+}
+
+.textarea-completed {
+   color: lightgrey;
+   text-decoration: line-through;
+} 
+/* End textareas style  */
+
+input[type="checkbox"]
+{
+   -ms-transform: scale(1.3); /* IE */
+   -moz-transform: scale(1.3); /* FF */
+   -webkit-transform: scale(1.3); /* Safari and Chrome */
+   -o-transform: scale(1.3); /* Opera */
+   vertical-align: middle;
+   cursor: pointer;
+   margin-left: 10px;
+}
+
+.completedTask {
+   border-color: lightgray;   
+}
