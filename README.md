@@ -1,2 +1,4 @@
-# task-manager
-simple task manager on react js
+# Task manager
+
+Demo:
+http://codepen.io/biboshkin/pen/VPQgyj
